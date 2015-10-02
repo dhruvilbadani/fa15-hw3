@@ -1,0 +1,17 @@
+
+<h2> Todo </h2>
+<% @todos.each do |t| %>
+    <p> <%=t.tasks%> </p>
+<%end%>
+
+<h2> User </h2>
+<% @users.each do |u| %>
+    <p> <%=u.username%> <%=u.email%> <%=u.age%> </p>
+<%end%>
+
+<h2> Cat </h2>
+<% @cats.each do |c| %>
+    <p> <%=c.name%> </p>
+<%end%>
+
+<p>Find me in app/views/pages/home.html.erb</p>
